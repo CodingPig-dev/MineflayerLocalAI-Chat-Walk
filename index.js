@@ -42,7 +42,7 @@ async function sendChatCompletion({ model, messages, temperature = 0.3, max_toke
 const bot = mineflayer.createBot({
   host: process.env.MC_HOST || 'localhost', 
   port: Number(process.env.MC_PORT ||  25565),  
-  username: process.env.MC_USERNAME || 'MetaAI',
+  username: process.env.MC_USERNAME || 'AI',
   version: process.env.MC_VERSION || false,
   auth: process.env.MC_AUTH || 'offline'
 })
@@ -986,3 +986,4 @@ function tryExecuteCommand(cmd) {
     return false
   }
 }
+
