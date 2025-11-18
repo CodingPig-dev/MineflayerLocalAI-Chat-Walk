@@ -18,6 +18,6 @@ The included Mineflayer code remains under its original license, while additiona
 7. Run the project with:
    ```bash
    node index.js
-   
-   Info:
+
+## Info:
    To change the model, download it in GPT4All and set the model name in line 21 of index.js.
